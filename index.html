@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Gupta | Cybersecurity Enthusiast | LPU</title>
+
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Premium Academic Background -->
+  <div class="bg-grid"></div>
+  <div class="bg-gradient-academic"></div>
+
+  <div class="container">
+
+    <!-- =================================== -->
+    <!-- SIDEBAR - ACADEMIC PROFILE CARD     -->
+    <!-- =================================== -->
+    <aside class="sidebar" data-sidebar data-aos="fade-right" data-aos-duration="800">
+
+      <div class="sidebar-header">
+        <div class="institution-badge">
+          <i class="fas fa-university"></i>
+          <span>Lovely Professional University</span>
+        </div>
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Switch theme">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+      </div>
+
+      <!-- Profile Section -->
+      <div class="profile-section">
+        <div class="avatar-frame">
+          <div class="avatar-ring"></div>
+          <div class="avatar-glow"></div>
+          <img src="profile.jpg" alt="Shubham Gupta" class="avatar"
+            onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name=Shubham+Gupta&background=1e40af&color=fff&size=200'">
+        </div>
+
+        <div class="profile-info">
+          <h1 class="profile-name">Shubham Gupta</h1>
+          <p class="profile-title">Cybersecurity Enthusiast</p>
+          <div class="profile-meta">
+            <span><i class="fas fa-id-card"></i> B.Tech CSE</span>
+            <span><i class="fas fa-calendar-alt"></i> 2023-2027</span>
+          </div>
+        </div>
+
+        <button class="expand-btn" data-sidebar-btn>
+          <span>View Contact Details</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+      </div>
+
+      <!-- Contact Details (Expandable) -->
+      <div class="sidebar-contact">
+        <div class="divider"></div>
+
+        <div class="contact-section">
+          <h4 class="contact-heading">
+            <i class="fas fa-address-card"></i>
+            Contact Information
+          </h4>
+
+          <div class="contact-list">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Email</span>
+                <a href="mailto:shubham842k5@gmail.com" class="contact-value">shubham842k5@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Phone</span>
+                <a href="tel:+919142782004" class="contact-value">+91 9142782004</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Punjab, India</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-graduation-cap"></i>
+              </div>
+              <div class="contact-details">
+                <span class="contact-label">Program</span>
+                <span class="contact-value">B.Tech CSE</span>
+                <span class="contact-sub">CGPA: 6.76 | 2nd Year</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Social & Coding Profiles -->
+        <div class="social-section">
+          <h4 class="contact-heading">
+            <i class="fas fa-share-alt"></i>
+            Professional Profiles
+          </h4>
+
+          <div class="social-grid">
+            <a href="https://github.com/RohanSirr" target="_blank" class="social-btn github">
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/shubhamgupta69/" target="_blank" class="social-btn linkedin">
+              <i class="fab fa-linkedin-in"></i>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+
+          <div class="coding-profiles" style="display: none;">
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- =================================== -->
+    <!-- MAIN CONTENT - ACADEMIC PORTFOLIO   -->
+    <!-- =================================== -->
+    <main class="main-content">
+
+      <!-- Navigation - University Style -->
+      <nav class="navbar" data-aos="fade-down" data-aos-duration="600">
+        <div class="nav-brand">
+          <i class="fas fa-shield-hal"></i>
+          <span>Academic Portfolio</span>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <button class="nav-link active" data-nav-link="about">About</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" data-nav-link="education">Education</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" data-nav-link="projects">Projects</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" data-nav-link="certifications">Certifications</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" data-nav-link="resume">Resume</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" data-nav-link="contact">Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ============== ABOUT SECTION ============== -->
+      <section class="content-section about active" id="about" data-page="about">
+
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Academic Profile</h2>
+          <div class="title-accent"></div>
+          <p class="section-subhead">Computer Science & Engineering Student • Lovely Professional University</p>
+        </div>
+
+        <!-- Academic Summary Cards -->
+        <div class="academic-grid">
+
+          <div class="academic-card" data-aos="fade-up" data-aos-delay="50">
+            <div class="academic-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3>Program Overview</h3>
+            <p>Pursuing a Bachelor of Technology in Computer Science & Engineering, with a strong focus on
+              Cybersecurity, Defensive Strategies, and Python automation.</p>
+          </div>
+
+          <div class="academic-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="academic-icon">
+              <i class="fas fa-bullseye"></i>
+            </div>
+            <h3>Career Objective</h3>
+            <p>Aspiring Cybersecurity Professional aiming to leverage my programming expertise in Python, C++, and C to
+              secure digital infrastructure, identify vulnerabilities, and build robust, reliable systems.</p>
+          </div>
+
+          <div class="academic-card" data-aos="fade-up" data-aos-delay="150">
+            <div class="academic-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h3>Practical Experience</h3>
+            <p>Built cybersecurity tools simulating ransomware and developed automated Nmap vulnerability assessment
+              scripts. Navigated compromised networks using Metasploit.
+            </p>
+          </div>
+        </div>
+
+        <!-- Technical Competencies -->
+        <div class="competencies-section" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="section-subtitle">
+            <i class="fas fa-cogs"></i>
+            Technical Competencies
+          </h3>
+
+          <div class="competencies-grid">
+
+            <div class="competency-group">
+              <h4><i class="fas fa-code"></i> Languages & Frameworks</h4>
+              <div class="skills-list">
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">C++</span>
+                <span class="skill-badge">C</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">HTML & CSS</span>
+                <span class="skill-badge">Metasploit</span>
+              </div>
+            </div>
+
+            <div class="competency-group">
+              <h4><i class="fas fa-tools"></i> Tools & Platforms</h4>
+              <div class="skills-list">
+                <span class="skill-badge">GitHub</span>
+                <span class="skill-badge">Wireshark</span>
+                <span class="skill-badge">Burpsuite</span>
+                <span class="skill-badge">Nmap</span>
+              </div>
+            </div>
+
+            <div class="competency-group">
+              <h4><i class="fas fa-brain"></i> Soft Skills</h4>
+              <div class="skills-list">
+                <span class="skill-badge">Problem-Solving Skills</span>
+                <span class="skill-badge">Leadership</span>
+                <span class="skill-badge">Adaptability</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============== EDUCATION SECTION ============== -->
+      <section class="content-section education" id="education" data-page="education">
+
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Education & Training</h2>
+          <div class="title-accent"></div>
+          <p class="section-subhead">Academic Journey • Professional Development</p>
+        </div>
+
+        <!-- Education Timeline -->
+        <div class="education-timeline" data-aos="fade-up" data-aos-delay="50">
+
+          <div class="timeline-card">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge current">Current</span>
+                <span class="timeline-date">Since Aug 2023</span>
+              </div>
+              <h3>Bachelor of Technology - Computer Science and Engineering</h3>
+              <p class="timeline-institution">Lovely Professional University, Punjab, India</p>
+              <div class="timeline-details">
+                <span><i class="fas fa-chevron-right"></i> CGPA: 6.76</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge completed">Completed</span>
+                <span class="timeline-date">Apr 2021 — Mar 2023</span>
+              </div>
+              <h3>Intermediate</h3>
+              <p class="timeline-institution">Indian Public School, Purnea, Bihar</p>
+              <div class="timeline-details">
+                <span><i class="fas fa-chevron-right"></i> Percentage: 63%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge completed">Completed</span>
+                <span class="timeline-date">Apr 2019 — Mar 2021</span>
+              </div>
+              <h3>Matriculation</h3>
+              <p class="timeline-institution">Patna Central School, Patna, Bihar</p>
+              <div class="timeline-details">
+                <span><i class="fas fa-chevron-right"></i> Percentage: 80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Training -->
+        <div class="training-section" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="section-subtitle">
+            <i class="fas fa-certificate"></i>
+            Professional Training
+          </h3>
+
+          <div class="training-grid">
+
+            <div class="training-card">
+              <div class="training-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <div class="training-content">
+                <div class="training-meta">
+                  <span class="training-date">Dec 2025</span>
+                </div>
+                <h4>Vulnerability Research, Penetration Testing & Exploitation</h4>
+                <p class="training-org">INE</p>
+                <p class="training-desc">Executed practical attacks using Metasploit, performed hash cracking, and
+                  demonstrated advanced pivoting techniques to navigate compromised networks. Conducted web-based
+                  attacks and enumerated compromised targets.</p>
+                <a href="#" target="_blank" class="training-link" style="display: none;">
+                  <i class="fas fa-external-link-alt"></i> View Certificate
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Achievement Highlight -->
+        <div class="achievement-highlight" data-aos="fade-up" data-aos-delay="150">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h4>150+ DSA Problems Solved & Hackathon Finalist</h4>
+            <p>LeetCode Analyst | Secured 4th rank at HackWithVertos 1.0 Hackathon</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============== PROJECTS SECTION ============== -->
+      <section class="content-section projects" id="projects" data-page="projects">
+
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Academic Projects</h2>
+          <div class="title-accent"></div>
+          <p class="section-subhead">Practical Implementation</p>
+        </div>
+
+        <div class="projects-container">
+
+          <!-- Project 1: File-Encryption Simulation -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="50">
+            <div class="project-card-header">
+              <div class="project-icon-wrapper">
+                <i class="fas fa-file-shield"></i>
+              </div>
+              <span class="project-date-badge">Nov 2025</span>
+            </div>
+            <h3 class="project-title">File-Encryption Simulation</h3>
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Cryptography Libraries</span>
+            </div>
+            <ul class="project-feature-list">
+              <li><i class="fas fa-check-circle"></i> Built a Python-based cybersecurity tool to simulate ransomware
+                behavior for educational analysis and defense testing.</li>
+              <li><i class="fas fa-check-circle"></i> Implemented file locking mechanisms and cryptographic algorithms
+                to demonstrate encryption and decryption workflows.</li>
+              <li><i class="fas fa-check-circle"></i> Gained practical insights into malware behavior patterns,
+                enhancing understanding of defensive strategies and system vulnerability patching.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/RohanSirr" target="_blank" class="project-btn secondary">
+                <i class="fab fa-github"></i> Source Code
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2: Nmap Automation script -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-card-header">
+              <div class="project-icon-wrapper">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <span class="project-date-badge">Jan 2026</span>
+            </div>
+            <h3 class="project-title">Nmap Automation Script</h3>
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">python-nmap</span>
+              <span class="tech-tag">NSE</span>
+            </div>
+            <ul class="project-feature-list">
+              <li><i class="fas fa-check-circle"></i> Automated Network Reconnaissance and Vulnerability Assessment
+                using Python-Nmap for Vulnerability Management.</li>
+              <li><i class="fas fa-check-circle"></i> Engineered automated scripts to execute aggressive scan profiles
+                (-sC, -sV, -T4, -Pn) for rapid service version detection.</li>
+              <li><i class="fas fa-check-circle"></i> Optimized penetration testing efficiency by dynamically parsing
+                and formatting raw scan data.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/RohanSirr" target="_blank" class="project-btn secondary">
+                <i class="fab fa-github"></i> Source Code
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============== CERTIFICATIONS SECTION ============== -->
+      <section class="content-section certifications" id="certifications" data-page="certifications">
+
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Certifications</h2>
+          <div class="title-accent"></div>
+          <p class="section-subhead">Professional Development • Industry Recognition</p>
+        </div>
+
+        <div class="cert-grid" data-aos="fade-up" data-aos-delay="50">
+
+          <!-- Certification 1 -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-icon-large">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h4>e-learning Junior Penetration Tester(eJPT)</h4>
+              <p class="cert-issuer">INE</p>
+              <p class="cert-date">Issued: Feb 2026</p>
+              <a href="https://drive.google.com/file/d/17X88gLlDQ-uURO7_uVyqg5Vbidle24ti/view?usp=sharing"
+                target="_blank" class="cert-verify-btn">
+                <i class="fas fa-check-circle"></i> Verify Credential
+              </a>
+            </div>
+          </div>
+
+          <!-- Certification 2 -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-icon-large">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <h4>Computer Communications Specialization</h4>
+              <p class="cert-issuer">Coursera</p>
+              <p class="cert-date">Issued: Nov 2024</p>
+              <a href="https://www.coursera.org/account/accomplishments/specialization/T5I0TERYS618" target="_blank"
+                class="cert-verify-btn">
+                <i class="fas fa-check-circle"></i> Verify Credential
+              </a>
+            </div>
+          </div>
+
+          <!-- Certification 3 -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-icon-large">
+                <i class="fas fa-wifi"></i>
+              </div>
+              <h4>The Bits & Bytes of Computer Networking</h4>
+              <p class="cert-issuer">Coursera</p>
+              <p class="cert-date">Issued: Oct 2024</p>
+              <a href="https://www.coursera.org/account/accomplishments/verify/YUV1HEEFZ7RD" target="_blank"
+                class="cert-verify-btn">
+                <i class="fas fa-check-circle"></i> Verify Credential
+              </a>
+            </div>
+          </div>
+
+          <!-- Certification 4 -->
+          <div class="cert-card">
+            <div class="cert-card-inner">
+              <div class="cert-icon-large">
+                <i class="fas fa-microchip"></i>
+              </div>
+              <h4>Introduction to Hardware & Operating Systems</h4>
+              <p class="cert-issuer">Coursera</p>
+              <p class="cert-date">Issued: Sep 2024</p>
+              <a href="https://www.coursera.org/account/accomplishments/verify/QGK4T42NZCGM" target="_blank"
+                class="cert-verify-btn">
+                <i class="fas fa-check-circle"></i> Verify Credential
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============== RESUME SECTION ============== -->
+      <section class="content-section resume" id="resume" data-page="resume">
+
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Resume</h2>
+          <div class="title-accent"></div>
+          <p class="section-subhead">Click on the button below to download my resume</p>
+        </div>
+        <a href="https://drive.google.com/file/d/1KhmX9-60HiWzUgOX_VaM42YLxh2LlFZB/view?usp=sharing" target="_blank"
+          class="glow-btn">
+          <span><i class="fas fa-external-link-alt"></i> View Resume</span>
+        </a>
+      </section>
+
+      <!-- ============== CONTACT SECTION ============== -->
+      <section class="content-section contact" id="contact" data-page="contact">
+
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Contact & Connect</h2>
+          <div class="title-accent"></div>
+          <p class="section-subhead">Available for Opportunities • Academic Collaboration</p>
+        </div>
+
+        <div class="contact-container" data-aos="fade-up" data-aos-delay="50">
+
+          <!-- Contact Cards -->
+          <div class="contact-cards-grid">
+
+            <div class="contact-info-card">
+              <i class="fas fa-envelope"></i>
+              <h4>Email</h4>
+              <a href="mailto:shubhamgupta69@gmail.com">shubhamgupta69@gmail.com</a>
+              <span class="response-badge">Reply within 24h</span>
+            </div>
+
+            <div class="contact-info-card">
+              <i class="fas fa-phone-alt"></i>
+              <h4>Phone</h4>
+              <a href="tel:+917051590252">+91 7051590252</a>
+              <span class="response-badge">9AM - 6PM IST</span>
+            </div>
+
+            <div class="contact-info-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <h4>Location</h4>
+              <p>Bihar, India</p>
+              <span class="response-badge">Open to Remote</span>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <h3>Send Academic Inquiry</h3>
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <input type="text" id="name" placeholder="Your Full Name" required>
+                  <i class="fas fa-user"></i>
+                </div>
+                <div class="form-group">
+                  <input type="email" id="email" placeholder="Your Email Address" required>
+                  <i class="fas fa-envelope"></i>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" id="subject" placeholder="Subject / Purpose">
+                <i class="fas fa-tag"></i>
+              </div>
+              <div class="form-group">
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <i class="fas fa-comment"></i>
+              </div>
+              <button type="submit" class="submit-btn">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Footer - Academic Year -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2026 Shubham Gupta • Lovely Professional University</p>
+      <p class="footer-meta">B.Tech CSE | Computer Science Student</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
